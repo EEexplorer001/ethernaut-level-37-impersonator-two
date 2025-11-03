@@ -1,0 +1,16 @@
+{
+  "name": "ts-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sign:msgs": "ts-node ./recover_and_sign.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
